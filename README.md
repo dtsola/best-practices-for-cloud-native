@@ -182,7 +182,7 @@
  ![](images/11.jpg)
 
 
-    - my-svc.namespace.svc.cluster.local
+  - my-svc.namespace.svc.cluster.local
       - Service 解析为Cluster IP 
       - Headless Service 解析为Pod IP列表 
 ##### Ingress Controller
@@ -190,27 +190,27 @@
 ![](images/12.jpg)
 
 
-    - 负责南北向流量
-    - 自动将域名+接口与Service ClusterIP进行绑定
+  - 负责南北向流量
+  - 自动将域名+接口与Service ClusterIP进行绑定
 ##### Dashboard
 
 ![](images/14.jpg)
     
-    - Kubernetes Dashboard
-    - KubeBoard 
-    - Rancher 
-    - Lens 
+  - Kubernetes Dashboard
+  - KubeBoard 
+  - Rancher 
+  - Lens 
 ##### Federation
 
 ![](images/13.jpg)
 
 
-    - 管理多集群资源
-    - 分散工作负载 
-    - 跨集群资源编排
-    - 迁移应用 
-    - 跨集群服务发现
-    - 多云管理
+  - 管理多集群资源
+  - 分散工作负载 
+  - 跨集群资源编排
+  - 迁移应用 
+  - 跨集群服务发现
+  - 多云管理
 
 ### 设计理念
 
