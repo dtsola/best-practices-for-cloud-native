@@ -1,3 +1,5 @@
+**图片太多了，不传图床了；下载到本地后就能正常显示~**
+
 # 联系我
 
 - E-Mail：dtsola@163.com
@@ -176,22 +178,33 @@
 
 #### 非核心组件
 ##### kube-dns
-    - ![](images/11.jpg)
+
+ ![](images/11.jpg)
+
+
     - my-svc.namespace.svc.cluster.local
       - Service 解析为Cluster IP 
       - Headless Service 解析为Pod IP列表 
 ##### Ingress Controller
-    - ![](images/12.jpg)
+
+![](images/12.jpg)
+
+
     - 负责南北向流量
     - 自动将域名+接口与Service ClusterIP进行绑定
 ##### Dashboard
-    - ![](images/14.jpg)
+
+![](images/14.jpg)
+    
     - Kubernetes Dashboard
     - KubeBoard 
     - Rancher 
     - Lens 
 ##### Federation
-    - ![](images/13.jpg)
+
+![](images/13.jpg)
+
+
     - 管理多集群资源
     - 分散工作负载 
     - 跨集群资源编排
